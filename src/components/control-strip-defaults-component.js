@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 // Prevents the defaultValue/defaultChecked fields from rendering with value/checked
-class ComponentWrapper extends Component {
+class ComponentWrapper extends PureComponent {
   render() {
     /* eslint-disable no-unused-vars */
     const {
